@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     // REM = 1 rem = 16px
 
     body {
-        background: var(---background);
+        background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
 
