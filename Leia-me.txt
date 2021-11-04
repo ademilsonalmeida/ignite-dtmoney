@@ -1,0 +1,45 @@
+yarn create react-app dtmoney --template typescript
+
+Limpar o diretório public, manter somente o arquivo:
+- index.html
+
+Limpar o arquivo index.html:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dtmoney</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>    
+  </body>
+</html>
+
+Limpar o diretório src, manter somente os arquivos
+- App.tsx
+- index.tsx
+- react-app-env.d.ts
+
+Exportar imagens do figma no diretório public
+- favicon.png
+
+Exportar imagens do figma no diretório src/assets
+- close.svg
+- income.svg
+- logo.svg
+- outcome.svg
+- total.svg
+
+CSS in JS
+Instalar bibliotecas:
+yarn add styled-components
+yarn add @types/styled-components -D
+
+Adicionar o favicon no arquivo index.html:
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+Criando estilos globais 
+- Criar o diretório styles no diretório src
+- Criar o arquivo global.ts no diretório styles
